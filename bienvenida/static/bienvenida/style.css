@@ -1,0 +1,59 @@
+/* style.css - modern aesthetic for the site */
+
+/* Global reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    color: #333;
+    line-height: 1.6;
+    padding: 2rem;
+}
+
+h1, h2, h3 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    background: rgba(255,255,255,0.8);
+    margin-bottom: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+}
+
+li:hover {
+    transform: translateX(5px);
+    background: rgba(255,255,255,0.9);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: rgba(255,255,255,0.7);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
